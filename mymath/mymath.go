@@ -11,6 +11,9 @@ func Abs(x float64) int {
 func Max(x, y float64) int {
 	return int(math.Max(x, y))
 }
+func Min(x, y float64) int {
+	return int(math.Min(x, y))
+}
 func Yn(n int, x float64) int {
 	return int(math.Yn(n, x))
 }
