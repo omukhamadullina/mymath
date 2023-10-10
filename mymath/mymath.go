@@ -2,7 +2,7 @@ package mymath
 
 import "math"
 
-var Version string = "v1.0.0"
+var Version string 
 
 func Abs(x float64) float64 {
 	return math.Abs(x)
